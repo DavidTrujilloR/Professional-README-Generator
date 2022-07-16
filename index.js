@@ -23,20 +23,14 @@ let questions = [
 
     {
         type: 'input',
-        message: 'How install the app',
-        name: 'installation'
-    },
-
-    {
-        type: 'input',
-        message: 'Credits',
-        name: 'installation'
-    },
-
-    {
-        type: 'input',
         message: 'How to use the app',
         name: 'usage'
+    },
+
+    {
+        type: 'input',
+        message: 'Provide a screenshot',
+        name: 'screenshot'
     },
 
     {
