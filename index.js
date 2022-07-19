@@ -1,8 +1,8 @@
-var fileGenerator = require('./fileGenerator');
-var fs = require('fs');
-var inquirer = require('inquirer');
+const fileGenerator = require('./fileGenerator');
+const fs = require('fs');
+const inquirer = require('inquirer');
 
-let questions = [
+const questions = [
     {
         type: 'input',
         message: 'Repository title',
@@ -19,12 +19,6 @@ let questions = [
         type: 'input',
         message: 'Intructions',
         name: 'instructions'
-    },
-
-    {
-        type: 'input',
-        message: 'How to use the app',
-        name: 'usage'
     },
 
     {
